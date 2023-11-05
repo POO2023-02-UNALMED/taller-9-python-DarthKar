@@ -2,9 +2,9 @@ from tkinter import Tk, Button, Entry
 
 # Configuración ventana principal
 root = Tk()
-root.title(***)
+root.title("Calculadora POO")
 root.resizable(0,0)
-root.geometry(***)
+root.geometry("400x300")
 
 # Configuración pantalla de salida 
 pantalla = Entry(root, width=40, bg="black", fg="white", borderwidth=0, font=("arial", 18, "bold"))
